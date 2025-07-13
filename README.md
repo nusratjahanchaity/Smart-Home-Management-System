@@ -49,16 +49,16 @@ A web-based Smart Home Management System built using **PHP**, **Oracle 10g XE**,
 
 ## Setup Instructions
 
-1. **Clone the Project**
+1. **Install XAMPP (win32-7.3.2-0-VC15)**
+
+   * Download from SourceForge.
+   * Install to: `C:\xampp`
+
+2. **Clone the Project inside C:\xampp\htdocs**
 
    ```bash
    git clone https://github.com/your-username/Smart-Home-Management-System.git
    ```
-
-2. **Install XAMPP (32-bit v3.2.2)**
-
-   * Download from SourceForge.
-   * Install to: `C:\xampp`
 
 3. **Install Oracle 10g XE**
 
@@ -75,19 +75,13 @@ A web-based Smart Home Management System built using **PHP**, **Oracle 10g XE**,
      ```
    * Restart Apache from the XAMPP Control Panel
 
-5. **Create Project Folder**
-
-   * Go to: `C:\xampp\htdocs`
-   * Create folder: `DBMSProject`
-   * Move all PHP files (`index.php`, etc.) into this folder
-
-6. **Create Database and Insert Data**
+5. **Create Database and Insert Data**
 
    * Open SQL\*Plus or SQL Developer
    * Login as SYSTEM
    * Run the provided `CREATE TABLE` and `INSERT INTO` SQL scripts
 
-7. **Run the Project**
+6. **Run the Project**
 
    * Start Apache from XAMPP
    * Open browser and go to:
